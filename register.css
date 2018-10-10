@@ -1,0 +1,81 @@
+@charset "utf-8";
+.box{
+	margin: 20px auto;
+	padding: 10px 20px;
+	width: 80%;
+	font-size: 13px;
+}
+.box-head{
+	padding: 15px 20px;
+	font-size: 24px;
+	text-align: center;
+	font-weight:bolder;
+}
+/* 每行前面的文字*/
+.box-body th{
+	text-align: right;
+	font-weight: normal;
+}
+/* 输入框*/
+.box-body input{
+	vertical-align: middle;
+	height: 38px;
+	width: 350px;
+	border:1px solid #ccc ;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin: 10px 0;
+}
+/* 鼠标悬停在文本框或文本框获得焦点:提示文字颜色变化*/
+.box-body input:focus::-webkit-input-placeholder,.box-body input:hover::-webkit-input-placeholder{
+	color: #c2c2c2;
+}
+/*注册按钮*/
+.box-body tr:last-child{
+	text-align: center;
+}
+.box-body tr:last-child input{
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	background: #4393C9;
+	color: white;
+	font-size: 16px;
+}
+/* 定义提示文字显示样式：在js内动态使用*/
+.box-body .error{
+	height: 30px;
+	line-height: 30px;
+	font-size: 10px;
+	background: #FFF2E5;
+	color: red;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.box-body .success{
+	height: 30px;
+	line-height: 30px;
+	font-size: 10px;
+	background: #E6FEE4;
+	color: green;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

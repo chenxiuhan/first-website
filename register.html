@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" href="register.css" />
+	</head>
+	<body>
+		<div class="box">
+			<div class="box-head">填写注册信息</div>
+			<div class="box-body">
+				<form action="" method="post">
+					<!--表格-->
+					<table>
+						<!--th:表头 ； tr：一行； td：数据，一列-->
+						<tr>
+							<th>用户名称：</th>
+							<td>
+								<input type="text" name="username" placeholder="长度4~12，英文大小写字母"/>
+							</td>
+							<td><div></div></td>
+						</tr>
+						<tr>
+							<th>密   码：</th>
+							<td>
+								<input type="password" name="pwd" placeholder="长度6~20，大小写字母、数字或下划线"/>
+							</td>
+							<td><div></div></td>
+						</tr>
+						<tr>
+							<th>确认密码：</th>
+							<td>
+								<input type="password" name="repwd" placeholder="请再次输入密码进行确认"/>
+							</td>
+							<td><div></div></td>
+						</tr>
+						<tr>
+							<th>手机号码：</th>
+							<td>
+								<input type="text" name="tel" placeholder="13、14、15、17、18开头的11位手机号"/>
+							</td>
+							<td><div></div></td>
+						</tr>
+						<tr>
+							<th>籍贯：</th>
+							<td>
+								<select name="province" id="province">
+									<option value="-1">省份</option>
+								</select>
+								<select name="city" id="city">
+									<option value="-1">城市</option>
+								</select>
+								
+							</td>
+							<td>								
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3">
+								<input type="submit" value="注册" />
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<script src="register.js"></script>
+	</body>
+</html>
